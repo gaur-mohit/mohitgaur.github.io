@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<style type="text/css">
+    #radius-shape-1 {
+      height: 10vw;
+      width: 10vw;
+      top: -6vw;
+      left: -13vw;
+      background: radial-gradient(#b4990f, #ffd609);
+
+
+
+}
+</style>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+<div class="navbar-fixed">
+    <nav class="z-depth-0">
+    <div class="nav-wrapper white">
+      <a target="tw" href="deshbord.html" class="brand-logo"><img src="MG1.png" style="margin-left:5vw;margin-top:4%;height:35px"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger" style="color:black"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down" style="margin-right:5vw;">
+        <li><a target="tw" href="education.html" style="color:black;font-family:'Arial';">Education</a></li>
+        <li><a href="badges.html" style="color:black;font-family:'Arial';">Courses</a></li>
+        <li><a href="collapsible.html" style="color:black;font-family:'Arial';">Projects</a></li>
+        <li><a href="mobile.html" style="color:black;font-family:'Arial';">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html" style="font-family:'Arial';">Education</a></li>
+    <li><a href="badges.html" style="font-family:'Arial';">Courses</a></li>
+    <li><a href="collapsible.html" style="font-family:'Arial';">Projects</a></li>
+    <li><a href="mobile.html" style="font-family:'Arial';">Contact</a></li>
+  </ul>
+
+<iframe src="deshbord.html" frameborder="0" name="tw" style="width:100%;min-height:88.4vh"></iframe>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js">
+</script>
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+  });
+</script>
+</body>
+</html>
